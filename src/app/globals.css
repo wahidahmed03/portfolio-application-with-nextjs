@@ -2,26 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+.hide-scrollbar {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; 
   }
-}
+  
+  
+  @keyframes slide {
+    0% {
+        transform: translateX(60%);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  
+  .animate-slide {
+    animation: slide 25s linear infinite;
+    width: fit-content; 
+  }
+  
+  
+  
+  @keyframes slideRight {
+    from {
+        transform: translateX(-1700px);
+    }
+    to{
+      transform: translateX(0px);
+    }
+  
+  }
+  
+  @keyframes slideLeft {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-2500px);
+    }
+  }
+  
+  .animate-slide-right {
+    animation: slideRight 25s linear infinite;
+  }
+  
+  .animate-slide-left {
+    animation: slideLeft 25s linear infinite;
+  }
+  

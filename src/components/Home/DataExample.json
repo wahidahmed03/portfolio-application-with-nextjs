@@ -1,0 +1,71 @@
+[
+    {
+        "skillName": "Next.js",
+        "percentage": "92"
+    },
+    {
+        "skillName": "Redux.js",
+        "percentage": "82"
+    },
+    {
+        "skillName": "Axios.js",
+        "percentage": "85"
+    },
+    {
+        "skillName": "React.js",
+        "percentage": "95"
+    },
+    {
+        "skillName": "Express.js",
+        "percentage": "95"
+    },
+    {
+        "skillName": "Node.js",
+        "percentage": "93"
+    },
+    {
+        "skillName": "Cash.js",
+        "percentage": "70"
+    },
+    {
+        "skillName": "jquery",
+        "percentage": "79"
+    },
+    {
+        "skillName": "Javascript",
+        "percentage": "85"
+    },
+    {
+        "skillName": "Tailwindcss",
+        "percentage": "95"
+    },
+    {
+        "skillName": "SASS",
+        "percentage": "82"
+    },
+    {
+        "skillName": "CSS",
+        "percentage": "92"
+    },
+    {
+        "skillName": "HTML",
+        "percentage": "95"
+    },
+    {
+        "skillName": "MongoDB",
+        "percentage": "92"
+    },
+    {
+        "skillName": "MySql",
+        "percentage": "95"
+    }
+    ,
+    {
+        "skillName": "Firebase",
+        "percentage": "80"
+    },
+    {
+        "skillName": "Prisma",
+        "percentage": "95"
+    }
+]
